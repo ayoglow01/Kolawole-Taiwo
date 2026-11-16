@@ -9,7 +9,7 @@ import { FeaturedProject } from "./components/sections/FeaturedProject";
 import { Credentials } from "./components/sections/Credentials";
 import { Leadership } from "./components/sections/Leadership";
 import { Contact } from "./components/sections/Contact";
-import { Skills } from "./components/sections/skills";
+import { Skills } from "./components/sections/Skills";
 
 
 export default function App() {
