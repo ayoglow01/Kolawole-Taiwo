@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Add a Sitemap line once a production domain is configured, e.g.:
+# Sitemap: https://your-real-domain.example/sitemap.xml

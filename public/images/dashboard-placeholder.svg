@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-label="Illustrative skeleton preview of a flight performance dashboard layout">
+  <defs>
+    <linearGradient id="trend" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C6765" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0C6765" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1200" height="760" fill="#F8F9F7"/>
+
+  <!-- App top bar -->
+  <rect x="0" y="0" width="1200" height="64" fill="#14263D"/>
+  <circle cx="36" cy="32" r="6" fill="#FFFFFF" fill-opacity="0.35"/>
+  <circle cx="58" cy="32" r="6" fill="#FFFFFF" fill-opacity="0.25"/>
+  <circle cx="80" cy="32" r="6" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="112" y="39" font-family="'Plus Jakarta Sans','Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="0.5" fill="#FFFFFF">Flight Performance Dashboard</text>
+  <rect x="968" y="18" width="204" height="28" rx="14" fill="#C5A46D" fill-opacity="0.18" stroke="#C5A46D" stroke-opacity="0.6"/>
+  <text x="1070" y="37" text-anchor="middle" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" letter-spacing="2" fill="#E5D5B8">ILLUSTRATIVE PREVIEW</text>
+
+  <!-- Sidebar hint -->
+  <rect x="0" y="64" width="72" height="696" fill="#101F33"/>
+  <rect x="24" y="96" width="24" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.25"/>
+  <rect x="24" y="140" width="24" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="24" y="184" width="24" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="24" y="228" width="24" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.12"/>
+
+  <!-- KPI cards (skeleton — deliberately no figures) -->
+  <g font-family="Inter,'Segoe UI',Arial,sans-serif">
+    <g>
+      <rect x="104" y="96" width="252" height="108" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+      <text x="128" y="132" font-size="12" font-weight="600" letter-spacing="1.6" fill="#596675">ON-TIME FLIGHTS</text>
+      <rect x="128" y="152" width="150" height="16" rx="8" fill="#E3E8EB"/>
+      <rect x="128" y="178" width="90" height="8" rx="4" fill="#EEF1F3"/>
+    </g>
+    <g>
+      <rect x="376" y="96" width="252" height="108" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+      <text x="400" y="132" font-size="12" font-weight="600" letter-spacing="1.6" fill="#596675">DELAYED FLIGHTS</text>
+      <rect x="400" y="152" width="130" height="16" rx="8" fill="#E3E8EB"/>
+      <rect x="400" y="178" width="90" height="8" rx="4" fill="#EEF1F3"/>
+    </g>
+    <g>
+      <rect x="648" y="96" width="252" height="108" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+      <text x="672" y="132" font-size="12" font-weight="600" letter-spacing="1.6" fill="#596675">CANCELLED FLIGHTS</text>
+      <rect x="672" y="152" width="110" height="16" rx="8" fill="#E3E8EB"/>
+      <rect x="672" y="178" width="90" height="8" rx="4" fill="#EEF1F3"/>
+    </g>
+    <g>
+      <rect x="920" y="96" width="248" height="108" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+      <text x="944" y="132" font-size="12" font-weight="600" letter-spacing="1.6" fill="#596675">PASSENGER ANALYSIS</text>
+      <rect x="944" y="152" width="140" height="16" rx="8" fill="#E3E8EB"/>
+      <rect x="944" y="178" width="90" height="8" rx="4" fill="#EEF1F3"/>
+    </g>
+  </g>
+
+  <!-- Bar chart: flight status by month -->
+  <rect x="104" y="236" width="680" height="300" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+  <text x="132" y="276" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2933">Flight status by month</text>
+  <rect x="132" y="292" width="220" height="8" rx="4" fill="#EEF1F3"/>
+  <line x1="132" y1="500" x2="756" y2="500" stroke="#E3E8EB" stroke-width="1.5"/>
+  <g>
+    <rect x="150" y="380" width="26" height="120" rx="4" fill="#14263D"/>
+    <rect x="182" y="420" width="26" height="80" rx="4" fill="#0C6765"/>
+    <rect x="214" y="464" width="26" height="36" rx="4" fill="#C5A46D"/>
+
+    <rect x="266" y="356" width="26" height="144" rx="4" fill="#14263D"/>
+    <rect x="298" y="404" width="26" height="96" rx="4" fill="#0C6765"/>
+    <rect x="330" y="456" width="26" height="44" rx="4" fill="#C5A46D"/>
+
+    <rect x="382" y="404" width="26" height="96" rx="4" fill="#14263D"/>
+    <rect x="414" y="436" width="26" height="64" rx="4" fill="#0C6765"/>
+    <rect x="446" y="472" width="26" height="28" rx="4" fill="#C5A46D"/>
+
+    <rect x="498" y="340" width="26" height="160" rx="4" fill="#14263D"/>
+    <rect x="530" y="392" width="26" height="108" rx="4" fill="#0C6765"/>
+    <rect x="562" y="448" width="26" height="52" rx="4" fill="#C5A46D"/>
+
+    <rect x="614" y="368" width="26" height="132" rx="4" fill="#14263D"/>
+    <rect x="646" y="412" width="26" height="88" rx="4" fill="#0C6765"/>
+    <rect x="678" y="460" width="26" height="40" rx="4" fill="#C5A46D"/>
+  </g>
+
+  <!-- Legend hint -->
+  <g font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#596675">
+    <circle cx="560" cy="271" r="5" fill="#14263D"/><text x="572" y="275">On time</text>
+    <circle cx="636" cy="271" r="5" fill="#0C6765"/><text x="648" y="275">Delayed</text>
+    <circle cx="712" cy="271" r="5" fill="#C5A46D"/><text x="724" y="275">Cancelled</text>
+  </g>
+
+  <!-- Monthly trend line -->
+  <rect x="816" y="236" width="352" height="300" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+  <text x="844" y="276" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2933">Monthly trend</text>
+  <rect x="844" y="292" width="180" height="8" rx="4" fill="#EEF1F3"/>
+  <path d="M844 470 L900 430 L956 448 L1012 390 L1068 410 L1124 356 L1124 500 L844 500 Z" fill="url(#trend)"/>
+  <path d="M844 470 L900 430 L956 448 L1012 390 L1068 410 L1124 356" fill="none" stroke="#0C6765" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0C6765">
+    <circle cx="900" cy="430" r="4.5"/><circle cx="1012" cy="390" r="4.5"/><circle cx="1124" cy="356" r="4.5"/>
+  </g>
+  <line x1="844" y1="500" x2="1140" y2="500" stroke="#E3E8EB" stroke-width="1.5"/>
+
+  <!-- Airport locations panel -->
+  <rect x="104" y="568" width="1064" height="140" rx="12" fill="#FFFFFF" stroke="#E3E8EB"/>
+  <text x="132" y="608" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="14" font-weight="600" fill="#1F2933">Airport locations</text>
+  <g>
+    <rect x="132" y="628" width="180" height="10" rx="5" fill="#E3E8EB"/>
+    <rect x="132" y="652" width="140" height="10" rx="5" fill="#EEF1F3"/>
+    <rect x="132" y="676" width="100" height="10" rx="5" fill="#EEF1F3"/>
+
+    <rect x="420" y="628" width="170" height="10" rx="5" fill="#E3E8EB"/>
+    <rect x="420" y="652" width="120" height="10" rx="5" fill="#EEF1F3"/>
+    <rect x="420" y="676" width="90" height="10" rx="5" fill="#EEF1F3"/>
+
+    <rect x="700" y="628" width="150" height="10" rx="5" fill="#E3E8EB"/>
+    <rect x="700" y="652" width="130" height="10" rx="5" fill="#EEF1F3"/>
+    <rect x="700" y="676" width="80" height="10" rx="5" fill="#EEF1F3"/>
+  </g>
+  <!-- Map hint -->
+  <g stroke="#C5A46D" stroke-opacity="0.8" fill="none">
+    <circle cx="1040" cy="648" r="26" stroke-width="1.5"/>
+    <circle cx="1040" cy="648" r="44" stroke-opacity="0.35" stroke-width="1.5"/>
+    <circle cx="1040" cy="648" r="5" fill="#C5A46D" stroke="none"/>
+  </g>
+
+  <!-- Footer note -->
+  <text x="600" y="742" text-anchor="middle" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="12.5" font-style="italic" fill="#596675">Illustrative preview — not actual project output. Real dashboard screenshot coming soon.</text>
+</svg>
