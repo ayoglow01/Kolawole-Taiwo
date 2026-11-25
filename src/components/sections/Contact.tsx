@@ -84,7 +84,7 @@ export function Contact() {
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <Reveal>
             <SectionHeading
-              index="08"
+              index="09"
               label="Contact"
               title="Let's Connect."
               tone="dark"

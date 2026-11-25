@@ -26,10 +26,10 @@ export const projects: Project[] = [
       "I visualize flight activity by airport location",
     ],
     image: {
-      src: "/images/dashboard-placeholder.svg",
-      alt: "Illustrative preview of a flight performance dashboard layout with status cards, charts and an airport analysis panel.",
+      src: "/images/project-dashboard.jpg",
+      alt: "A flight performance dashboard layout with status cards, charts and an airport analysis panel.",
       caption:
-        "Illustrative preview — my actual dashboard screenshot will be added soon.",
+        "A Power BI dashboard I built to monitor flight activity, track performance, and uncover operational insights.",
     },
     projectUrl: null,
     isFeatured: true,

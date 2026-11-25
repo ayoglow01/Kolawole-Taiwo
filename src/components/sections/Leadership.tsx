@@ -18,7 +18,7 @@ export function Leadership() {
       <Container>
         <Reveal>
           <SectionHeading
-            index="07"
+            index="08"
             label="Voluntary Service"
             title="Leadership & Community Service"
             headingId="leadership-heading"

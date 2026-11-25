@@ -17,7 +17,7 @@ export function Credentials() {
       <Container>
         <Reveal>
           <SectionHeading
-            index="06"
+            index="07"
             label="Credentials"
             title="Certifications & Education"
             headingId="credentials-heading"

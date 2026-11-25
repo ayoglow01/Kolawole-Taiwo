@@ -10,7 +10,7 @@ import { Credentials } from "./components/sections/Credentials";
 import { Leadership } from "./components/sections/Leadership";
 import { Contact } from "./components/sections/Contact";
 import { Skills } from "./components/sections/Skills";
-
+import { Gallery } from "./components/sections/Gallery";
 
 export default function App() {
   return (
@@ -30,6 +30,7 @@ export default function App() {
         <Skills />
         <Experience />
         <FeaturedProject />
+        <Gallery />
         <Credentials />
         <Leadership />
         <Contact />
