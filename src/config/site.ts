@@ -33,8 +33,8 @@ export const siteConfig: SiteConfig = {
   },
   contact: {
     email: {
-      value: "kolawoletaiwo2002@yahoo.com",
-      display: "kolawoletaiwo2002@yahoo.com",
+      value: "kingkolawoleolawaletaiwo@gmail.com",
+      display: "kingkolawoleolawaletaiwo@gmail.com",
       isPublic: true,
     },
     phone: {
@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
       isPublic: true,
     },
     socialLinks: {
-      linkedin: null,
+      linkedin: "https://www.linkedin.com/in/taiwo-olawale-kolawole-b3214258",
       twitter: null,
       instagram: null,
       facebook: null,

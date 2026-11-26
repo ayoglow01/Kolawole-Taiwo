@@ -24,7 +24,7 @@ const galleryItems: GalleryItem[] = [
   {
     id: "gallery-02",
     src: "/images/image3.jpg",
-    alt: "Kolawole attending a GIIT Africa mission event..",
+    alt: "Kolawole attending a GIIT Africa mission event.",
     title: "GIIT Africa Mission Event",
     category: "Events & Engagements",
   },
@@ -49,6 +49,49 @@ const galleryItems: GalleryItem[] = [
     alt: "Power BI flight performance dashboard displaying flight activity and performance metrics.",
     title: "Flight Performance Dashboard",
     category: "Projects & Analytics",
+  },
+  {
+    id: "gallery-06",
+    src: "/images/image6.jpg",
+    alt: "Kolawole attending a GIIT Africa graduation event.",
+    title: "GIIT Africa Graduation Event",
+    category: "Events & Engagements",
+  },
+  {
+    id: "gallery-07",
+    src: "/images/image7.jpg",
+    alt: "Kolawole participating in a GIIT Africa event with students.",
+    title: "Photo at GIIT Africa with Students",
+    category: "Events & Engagements",
+  },
+  {
+    id: "gallery-08",
+    src: "/images/image8.jpg",
+    alt: "Kolawole handling a GIIT Africa orientation event for a new cohort of students.",
+    title: "New Cohort's Orientation",
+    category: "Events & Engagements",
+    objectPosition: "center 30%",
+  },
+  {
+    id: "gallery-09",
+    src: "/images/image9.jpg",
+    alt: "Kolawole attending a boardroom meeting with the GIIT Africa team.",
+    title: "Boardroom Meeting with GIIT Africa Team",
+    category: "Events & Engagements",
+  },
+  {
+    id: "gallery-10",
+    src: "/images/image11.jpg",
+    alt: "Kolawole at a group photo session with students in GIIT Africa.",
+    title: "Group Photo at GIIT Africa",
+    category: "Events & Engagements",
+  },
+  {
+    id: "gallery-11",
+    src: "/images/image10.jpg",
+    alt: "Kolawole at a group photo session in GIIT Africa.",
+    title: "Group Photo at GIIT Africa",
+    category: "Events & Engagements",
   },
 ];
 

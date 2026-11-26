@@ -73,7 +73,7 @@ covered ? fail("anchor target obscured by sticky header") : pass("anchor scroll 
 
 // Contact links
 const mailto = await page.$eval('a[href^="mailto:"]', (e) => e.getAttribute("href"));
-mailto === "mailto:kolawoletaiwo2002@yahoo.com" ? pass("mailto link correct") : fail(`mailto wrong: ${mailto}`);
+mailto === "mailto:kingkolawoleolawaletaiwo@gmail.com" ? pass("mailto link correct") : fail(`mailto wrong: ${mailto}`);
 const tels = await page.$$eval('a[href^="tel:"]', (els) => els.map((e) => e.getAttribute("href")));
 JSON.stringify(tels) === JSON.stringify(["tel:+2347038600293", "tel:+2348057009208"])
   ? pass("tel links correct") : fail(`tel links wrong: ${JSON.stringify(tels)}`);

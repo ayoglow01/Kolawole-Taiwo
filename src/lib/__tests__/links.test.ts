@@ -23,8 +23,8 @@ describe("telHref", () => {
 
 describe("mailtoHref", () => {
   it("builds a plain mailto link", () => {
-    expect(mailtoHref("kolawoletaiwo2002@yahoo.com")).toBe(
-      "mailto:kolawoletaiwo2002@yahoo.com",
+    expect(mailtoHref("kingkolawoleolawaletaiwo@gmail.com")).toBe(
+      "mailto:kingkolawoleolawaletaiwo@gmail.com",
     );
   });
 
